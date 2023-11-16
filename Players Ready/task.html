@@ -1,0 +1,32 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>In this stage, we will finalize our game to play it with a friend! For this, we need to come up with an algorithm to check if a player has connected four pieces in a row after every click. The check must be carried out in three directions: horizontal, vertical, and diagonal. When the algorithm detects a winning move, the program should highlight these four cells so that the players can easily see who's won.</p>
+<p>We will also add the baseline background color for the cells from the start of the game and a distinct color for the cells that form a win condition. You can choose any colors that you want as long as the baseline and winning colors are different.</p>
+<p>Ensure that your program processes invalid moves in the following way. A click on a filled column should do nothing, and the player must be given another try. Additionally, a click on any cell after a game has been finished should lead to nothing.</p>
+<p>Finally, don't forget to add the reset button!</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, implement the following features:</p>
+<ol>
+<li>Add the baseline color for all cells at the start of the application;</li>
+<li>Add a reset button that extends the <code class="java">JButton</code> named <code class="java">ButtonReset</code>. The button should be enabled. Clicking on it should clear all cells and return them to their baseline color;</li>
+<li>Check if either player has connected four in a row vertically, horizontally, or diagonally after each move;</li>
+<li>Once a winner has been detected, change the color of the four winning cells to the winning color. The baseline color and the winning color should be two different colors;</li>
+<li>A click on any board cell in any filled column must lead to nothing. The gameplay continues with the same player's turn;</li>
+<li>A click on any board cell once a game is finished must lead to nothing.</li>
+</ol>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1: </strong><em>starting the application</em></p>
+<p style="text-align: center;"><img alt="Desktop Connect Four empty game board" height="545" name="Stage 4 Board Start.jpg" src="https://ucarecdn.com/4b828d3d-5101-4bfa-bdf2-08c982cb1cfe/" width="538"/></p>
+<p><strong>Example 2: </strong><em>the first </em><em>click on A6</em></p>
+<p style="text-align: center;"><img alt="Desktop Connect Four first move" height="546" name="Stage 4 First move.jpg" src="https://ucarecdn.com/e6f01dbc-fab7-46a6-b9b7-b2c2e28bf24f/" width="540"/></p>
+<p><strong>Example 3:</strong> <em>the second click on A5</em></p>
+<p style="text-align: center;"><img alt="Desktop Connect Four second move" height="553" name="Stage 4 Second move.jpg" src="https://ucarecdn.com/4f882353-2006-4d0f-8d09-bc4e934ea7b9/" width="547"/></p>
+<p><strong>Example 4:<em> </em></strong><em>several moves later</em></p>
+<p style="text-align: center;"><img alt="Desktop Connect Four O wins horizontal" height="556" name="Stage 4 O wins horizontal.jpg" src="https://ucarecdn.com/47af5551-da16-4818-a6f1-17d19cdf27ea/" width="550"/></p>
+<p><strong>Example 5: </strong><em>after pressing the reset button</em></p>
+<p style="text-align: center;"><img alt="Desktop Connect Four empty game board" height="564" name="Stage 4 Board Start.jpg" src="https://ucarecdn.com/cdf611be-d623-4e67-8aae-06a940d30ce2/" width="556"/></p>
+<p><strong>Example 6: </strong><em>several moves later</em></p>
+<p style="text-align: center;"><img alt='Desktop Connect Four "X" wins vertical' height="566" name="Stage 4 X wins vertical.jpg" src="https://ucarecdn.com/24b3b857-e5ee-4c5c-ad67-d1931d066241/" width="558"/></p>
+<p><strong>Example 7: </strong><em>after resetting and several moves</em></p>
+<p style="text-align: center;"><img alt='Desktop Connect Four "O" wins diagonal' height="572" name="Stage 4 O wins diagonal.jpg" src="https://ucarecdn.com/8e3147c4-56f4-4b1b-be83-892193159992/" width="564"/></p>
+</div>
